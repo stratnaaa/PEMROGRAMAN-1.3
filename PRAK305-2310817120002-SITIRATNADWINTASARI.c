@@ -3,7 +3,7 @@ int main(){
     int d,hr,jm,mn,dt;
     for (int i = 0; i < 5; i++){
     scanf("%d",&d);
-    hr = d / 84600;
+    hr = d / 86400;
     jm = d / 3600;
     mn = (d - jm * 3600)/60;
     dt = (d - jm * 3600) - (mn * 60);
